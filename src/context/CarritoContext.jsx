@@ -1,26 +1,12 @@
 import { createContext , useState} from "react";
 
-
 export const CarritoContext = createContext({
-
 
     // Initial values for the context
     carrito: [],
     total:0,
     cantidadTotal: 0,
 
-    /*carrito: [],
-    setCarrito: () => {},
-    totalItems: 0,
-    setTotalItems: () => {},
-    totalPrice: 0,
-    setTotalPrice: () => {},
-    clearCart: () => {},
-    removeItem: () => {},
-    addItem: () => {},
-    isCartEmpty: () => {},
-    getItemQuantity: () => {},
-    getTotalPrice: () => {},*/
 })
 
 export const CarritoProvider = ({children})=>{
